@@ -1,0 +1,98 @@
+.homeHeading {
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 1.4vmax;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+    width: 20vmax;
+    padding: 1vmax;
+    margin: 5vmax auto;
+    color: rgb(0, 0, 0, 0.7);
+}
+ .contain {
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap; 
+    justify-content: center;
+    max-width: 100%;
+  } 
+.prodDetails{
+    width: 14vmax;
+    /* height: 20vmax; */
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+}
+.prodDetails > img{
+    width: 14vmax;
+    height: 14vmax;
+}
+.prodDetails > p {
+    font-family: Urbanist;
+    font-size: 1.2vmax;
+    margin: 1vmax 0.5vmax;
+    margin-bottom: 0;
+}
+.prodDetails > Span {
+    margin: 0.5vmax;
+    color:tomato;
+    font-family:  "Urbanist";
+    font-size: 1.5vmax;
+}
+.prodDetails:hover {
+    box-shadow: 0 1 5px rgba(15, 15, 15, 0.26);
+  
+    transform: translateY(-1vmax);
+  }
+
+.containCat {
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap; 
+    justify-content: center;
+    max-width: 100%;
+}
+
+.footer{
+   
+        margin-top: 10vmax;
+        padding: 2vmax;
+        background-color: rgb(34, 33, 33);
+        color: white;
+        display: flex;
+        align-items: center;
+      
+}
+.leftFooter {
+    width: 20%;
+    display: flex;
+  
+    flex-direction: column;
+    /* align-items: center; */
+  }
+.leftFooter > h2 {
+    font-family: "Urbanist";
+    font-size: 3vmax;
+}
+.rightFooter {
+    width: 20%;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+  }
+.rightFooter > h2 {
+    font-family: "Urbanist";
+    font-size: 3vmax;
+}
+
+
+
+
+
+
