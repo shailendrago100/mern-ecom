@@ -8,7 +8,7 @@
     "start-server": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "shailendra",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
